@@ -23,18 +23,18 @@ The goal is to make space debris data understandable and interactive — showing
 
 **1. Orbit Inclination Distribution**
 
-![image alt](https://github.com/nidhirathod15/Orbitscope/blob/00be20e172552df62c671da738d7ce455c228d8a/orbitscope%20-%20Colab%20-%20Google%20Chrome%2007-11-2025%2020_42_13.png)
+![Orbit Inclination Distribution](https://github.com/nidhirathod15/Orbitscope/blob/00be20e172552df62c671da738d7ce455c228d8a/orbitscope%20-%20Colab%20-%20Google%20Chrome%2007-11-2025%2020_42_13.png)
 This histogram displays the inclination angles (orbital tilt) of debris fragments created by the FENGYUN-1C satellite destruction event. Most fragments cluster around *98–100°*, indicating near-polar orbits — meaning these debris pieces circle Earth almost from pole to pole.
 
-**2. Multi-Orbit 3D Plot (Matplotlib)**
+**2. Interactive 3D Orbit Viewer (Plotly)**
 
-![3D Orbit Visualization](screenshots/orbit3d_matplotlib.png)
-This visualization plots hundreds of debris orbits around Earth in 3D using Matplotlib. The dense mesh of lines shows just how crowded Earth’s low orbit has become. Each colored curve represents one debris fragment orbiting independently.
-
-**3. Interactive 3D Orbit Viewer (Plotly)**
-
-![Interactive Orbit Viewer](screenshots/orbit3d_plotly.png)
+[![Interactive Orbit Viewer](https://github.com/nidhirathod15/Orbitscope/blob/6bc42e130a159937734240e7d246b452b50ae8e1/orbitscope%20-%20Colab%20-%20Google%20Chrome%2007-11-2025%2020_42_51.png?raw=true)](https://github.com/nidhirathod15/Orbitscope)
 An interactive version of the orbital visualization built using `Plotly`. You can rotate, zoom, and explore debris trajectories in real time. Each line shows the orbital path of one debris piece, with Earth at the center (blue sphere). This view highlights the chaotic and overlapping nature of orbital debris in LEO (Low Earth Orbit).
+
+**3. Multi-Orbit 3D Plot (Matplotlib)**
+
+[![3D Orbit Visualization](https://github.com/nidhirathod15/Orbitscope/blob/6bc42e130a159937734240e7d246b452b50ae8e1/orbitscope%20-%20Colab%20-%20Google%20Chrome%2007-11-2025%2020_42_26.png?raw=true)](https://github.com/nidhirathod15/Orbitscope)
+This visualization plots hundreds of debris orbits around Earth in 3D using Matplotlib. The dense mesh of lines shows just how crowded Earth’s low orbit has become. Each colored curve represents one debris fragment orbiting independently.
 
 
 
