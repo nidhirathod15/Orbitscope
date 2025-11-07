@@ -23,7 +23,7 @@ The goal is to make space debris data understandable and interactive — showing
 
 **1. Orbit Inclination Distribution**
 
-![image alt] (https://github.com/nidhirathod15/Orbitscope/blob/00be20e172552df62c671da738d7ce455c228d8a/orbitscope%20-%20Colab%20-%20Google%20Chrome%2007-11-2025%2020_42_13.png)
+![image alt](https://github.com/nidhirathod15/Orbitscope/blob/00be20e172552df62c671da738d7ce455c228d8a/orbitscope%20-%20Colab%20-%20Google%20Chrome%2007-11-2025%2020_42_13.png)
 This histogram displays the inclination angles (orbital tilt) of debris fragments created by the FENGYUN-1C satellite destruction event. Most fragments cluster around *98–100°*, indicating near-polar orbits — meaning these debris pieces circle Earth almost from pole to pole.
 
 **2. Multi-Orbit 3D Plot (Matplotlib)**
